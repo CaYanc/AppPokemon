@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./components/Menu";
-import bola from "./assets/bola.png";
+import bola from './assets/bola.png';
 import pokebola from "./assets/pokebola.png";
 import Card from "./components/Card";
 
@@ -20,9 +20,9 @@ const Home = () => {
   const [fondopoke, setFondopoke] = useState()
 
   return (
-    <div className="w-[100%] h-[100vh] relative overflow-hidden ">
-      <figure className="absolute top-[10%] z-[-30] ">
-        <img src="src/assets/bola.png" alt="" />
+    <div className="w-[100%] h-[100vh] relative overflow-hidden">
+      <figure className="absolute left-0 top-[10%] z-[-30] ">
+        <img src={bola} alt="" />
       </figure>
 
       <Menu />
@@ -86,6 +86,7 @@ const Home = () => {
 
             />
           </div>
+          
         </div>
       </div>
       {estado && <Pokemon setEstado={setEstado} setImgpoke={imgpoke} setNombre={nombre} setFondopoke={fondopoke}/>}
