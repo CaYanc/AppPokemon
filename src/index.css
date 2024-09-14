@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box{
+    background: radial-gradient(#ffb44465 10%,#ffb44442,transparent ,transparent);
+    
+}
