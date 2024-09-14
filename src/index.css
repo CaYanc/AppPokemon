@@ -5,5 +5,24 @@
 
 .box{
     background: radial-gradient(#ffb44465 10%,#ffb44442,transparent ,transparent);
-    
+    width: ;
+}
+
+#root{
+    display: none;
+}
+
+#root2{
+    display: block;
+}
+
+
+@media(max-width: 600px){
+    #root{
+        display: block;
+    }
+    #root2{
+        display: none;
+    }
+
 }
